@@ -427,6 +427,7 @@ const Home = (props: HomeProps) => {
         message,
         severity: 'error',
       });
+      
       // updates the candy machine state to reflect the latest
       // information on chain
       refreshCandyMachineState();
